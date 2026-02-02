@@ -1,0 +1,14 @@
+[run]
+branch = True
+source =
+    src
+omit =
+    test_*.py
+    *_test.py
+    src/data_base.py
+    src/database_connector.py
+    src/application.py
+    src/other.py
+    src/remove_invoice.py
+    src/delete_email.py
+    src/error.py

@@ -1,0 +1,32 @@
+"""
+database mysql
+Filename: database_mysql
+
+Author: Nathan
+Created: 24/03/2023
+
+Description: Two tables one for communication_report the other one for the sending email 
+"""
+
+create schema invoice_sending;
+use invoice_sending;
+
+-- create table communication_report
+create table communication_report (
+report_id varchar(40),
+sender varchar(30),
+recipient varchar(30),
+descriptions varchar(150)
+);
+
+-- create table email
+create table email(
+sender_email varchar(80),
+recipient_email varchar(80),
+email_id varchar(50),
+fileLoc varchar(30),
+fileName varchar(40),
+user_pass varchar(30),
+subjectOfEmail varchar(150),
+content varchar(800)
+);
