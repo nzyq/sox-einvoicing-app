@@ -1,6 +1,6 @@
 {
-  "homepage": "http://cseteaching-unsw-edu-au.github.io",
-  "name": "front_end",
+  "homepage": "https://nzyq.github.io/sox-einvoicing-app",
+  "name": "sox-einvoicing-app",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
